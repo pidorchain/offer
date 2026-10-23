@@ -27,7 +27,7 @@ from aiogram.types import (
     Message,
 )
 
-bot = Bot(os.environ(["BOT_TOKEN"])
+bot = Bot(os.environ["BOT_TOKEN"])
 dp = Dispatcher()
 
 NFT_RE = re.compile(r"(?:https?://)?t\.me/nft/([A-Za-z0-9_]+-\d+)")
